@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This bash script stops 4-to_infinity_and_beyond process
+
+while IFS= read -r PID; do
+  kill "$PID"
+done < <(pgrep -f '4-to_infinity_and_beyond')
