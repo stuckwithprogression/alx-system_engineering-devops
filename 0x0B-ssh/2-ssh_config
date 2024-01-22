@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# configure your ssh file so that it can connect to your server without your passsword
+
+Host 100.25.13.234
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
