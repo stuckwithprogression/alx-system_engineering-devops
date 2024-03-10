@@ -1,4 +1,5 @@
-Postmortem: E-commerce Checkout Slowdown (February 2nd, 2024)
+###Postmortem: E-commerce Checkout Slowdown (February 2nd, 2024)
+
 Issue Summary
 Duration: 2 hours (10:00 AM PST - 12:00 PM PST)
 Impact: The checkout process on our e-commerce platform experienced significant slowdowns. Users encountered delays during product validation and payment processing, leading to frustration and cart abandonment. An estimated 30% of users were affected during the peak period.
